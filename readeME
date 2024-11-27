@@ -1,0 +1,78 @@
+# Portal Educacional - UNIESP
+
+Este projeto é um portal educacional desenvolvido para a instituição UNIESP. Ele fornece informações relevantes sobre vestibulares, faculdades, notícias e comunicação com estudantes, além de oferecer funcionalidades administrativas.
+
+## 📂 Estrutura do Projeto
+
+### Diretório `data/`
+- **`db.json`**: Arquivo JSON simulando um banco de dados local, utilizado para desenvolvimento e testes. Ideal para armazenar dados estruturados de forma simples e prática.
+
+---
+
+### Diretório `public/`
+Arquivos de mídia estáticos que não necessitam de processamento pelo Vite:
+- **`VESTIBULAR.gif`**: Imagem animada representando campanhas de vestibular.
+- **`uniesp.jpg`**: Logotipo estático da UNIESP.
+- **`vite.svg`**: Logotipo padrão do Vite, ferramenta de build utilizada no projeto.
+
+---
+
+### Diretório `src/`
+
+#### **Subdiretório `assets/`**
+Armazena recursos reutilizáveis, como ícones e imagens:
+- **`react.svg`**: Ícone estilizado do React.
+
+#### **Subdiretório `components/`**
+Componentes reutilizáveis para construção da interface do usuário:
+- **`BannerAd.jsx`**: Componente dinâmico para exibição de banners publicitários.
+- **`Navbar.jsx`**: Barra de navegação principal fixa para acesso às páginas do portal.
+
+#### **Subdiretório `pages/`**
+Contém as páginas principais do aplicativo organizadas de forma modular:
+- **`admin/`**:
+  - **`DpoLgpd.jsx`**: Página para gestão da LGPD (Lei Geral de Proteção de Dados) e políticas de privacidade.
+  - **`VisualizaNoticia.jsx`**: Página para exibição detalhada de notícias.
+- **Outras Páginas**:
+  - **`Faculdade.jsx`**: Página com informações detalhadas sobre a faculdade.
+  - **`Inicial.jsx`**: Página inicial do portal.
+  - **`Noticias.jsx`**: Página listando as notícias e comunicados.
+
+#### **Arquivos adicionais no `src/`**
+- **`App.css`**: Estilos globais aplicados à aplicação.
+- **`App.jsx`**: Componente principal que define as rotas e o layout geral.
+- **`index.css`**: Estilos básicos complementares.
+- **`main.jsx`**: Ponto de entrada para o React.
+- **`index.html`**: Modelo base HTML para renderização da aplicação.
+
+---
+
+### Arquivos Raiz
+- **`.gitignore`**: Configurações para ignorar arquivos/diretórios no controle de versão.
+- **`README.md`**: Documentação do projeto.
+- **`eslint.config.js`**: Configurações do ESLint para padronização e qualidade do código.
+- **`package.json`**: Lista de dependências e scripts do projeto.
+- **`package-lock.json`**: Registro das versões exatas das dependências para garantir reprodutibilidade.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React.js**: Biblioteca para construção de interfaces de usuário dinâmicas.
+- **Vite**: Ferramenta de build moderna, rápida e leve.
+- **JavaScript (ES6+)**: Linguagem principal de desenvolvimento.
+- **CSS**: Estilização do projeto.
+- **ESLint**: Ferramenta para linting e padronização do código.
+
+---
+
+## ⚙️ Configuração e Execução
+
+### **Pré-requisitos**
+Certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina. 
+
+### **Passos para executar o projeto**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-repositorio.git
+   cd seu-repositorio
